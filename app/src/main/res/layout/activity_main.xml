@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="361dp"
+        android:layout_height="358dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="25dp"
+        android:contentDescription="@string/img_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="370dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="107dp"
+        android:text="@string/btn_takephoto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_view" />
+
+</LinearLayout>
